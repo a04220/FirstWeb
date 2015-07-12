@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<!-- struts2 的配置文件 -->
+<struts>
+
+
+	<!-- 拦截器配置 -->
+
+	<!-- 以下是 package 与 action 的配置 -->
+	
+
+	
+	<!-- 测试用 -->
+	<package name="log"  extends="struts-default">
+		
+		<action name="admin" class="com.mystrut.action.AdminAction" method="execute">
+			<result name="success">welcome.html</result>
+			<result name="login">i.html</result>
+			<result name="input">1.html</result>
+		</action>
+	</package>
+
+	
+	
+	
+</struts>
