@@ -1,3 +1,2 @@
 # FirstWeb
-java web test
-自己的第一个JavaWeb项目
+这个项目用来说明如何简单使用和配置Struts2
